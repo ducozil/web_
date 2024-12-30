@@ -1,0 +1,45 @@
+.wrapper{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 1px;
+    background-color: transparent;
+    padding: 20px 0px 26px 16px;
+}
+.menu-item{
+    display: flex  ;
+    color: rgba(22, 24, 35, 1);
+    width: 100%;
+    background-color: transparent;
+    padding-top: 16px;
+    text-decoration: none;
+    align-items: center;
+    &:hover{
+        background-color: rgba(22, 24, 35, .03)
+    }
+    &.active{
+        color: rgb(254 44 85);
+    }
+ 
+}
+.icon{
+    color: rgb(22 24 35);
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color:rgb(254 44 85);
+    font-size: 25px;
+    height: 32px;
+    width: 32px;
+    
+
+}
+.title{
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    text-decoration:none;
+    bottom: 0px;
+    font-weight: 700;
+    margin-left: 8px;
+    height: 32px;
+ 
+
+}

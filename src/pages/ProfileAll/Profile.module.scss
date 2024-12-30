@@ -1,0 +1,78 @@
+.profile{
+    width: 1100px;
+    margin: 20px;
+}
+.accout{
+    display: flex;
+    img {
+        border-radius: 100px;
+        overflow: clip;
+        height: 100px;
+        width: 100px;
+    }
+    
+}
+.edit{
+    width: 500px;
+}
+.following{
+    margin-right: 30px;
+    margin-top: 22px;
+    span{
+        color: rgb(80, 82, 90);
+        font-family:"Roboto", sans-serif ;
+    }
+}
+.name{
+    margin-left: 20px;
+    line-height: 28px;
+}
+.title-profile{
+    display: flex;
+    flex-direction: column;
+    
+}
+.interact{
+    display: flex;
+}
+.title{
+    margin-top: 15px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(80, 82, 90);
+    h4{
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+.layout-video{
+
+}
+.feed-tab
+{
+    display: flex;
+    margin-top: 10px;
+    p{
+       margin-right: 20px; 
+    }
+}
+.all-video
+{
+    width: 100% ;
+    display: flex; // Thêm thuộc tính flex để các video nằm trên cùng một dòng
+    
+}
+.video{
+  width: 250px;
+  margin-top: 20px;
+  height:  300px;
+  display: flex;
+  flex-direction: column;
+}
+.videos {
+    width: 100%; // Sử dụng 100% chiều rộng để tự động điều chỉnh kích thước
+    height: 100%; // Sử dụng auto cho chiều cao để duy trì tỷ lệ khung hình
+    margin-left: 20px;
+  }
+.title-type{
+    margin-top: 0px;
+}

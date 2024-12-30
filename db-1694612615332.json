@@ -1,0 +1,108 @@
+{
+  "users": [
+    {
+      "username": "syhiep20012",
+      "bio": "@syhiep20000",
+      "name": "Văn Sỹ Hiệp",
+      "img": "/uploads/img2.jpg",
+      "password": "522001",
+      "id": 1,
+      "videos": [
+        {
+          "videoUrl": "/uploads/video1.mp4"
+        },
+        {
+          "videoUrl": "/uploads/video3.mp4"
+        },
+        {
+          "videoUrl": "/uploads/video6.mp4"
+        },
+        {
+          "videoUrl": "/uploads/video7.mp4"
+        }
+      ]
+    },
+    {
+      "username": "syhiep20022",
+      "bio": "@tuyetly",
+      "name": "Trần Thị Ly",
+      "img": "/uploads/img2.jpg",
+      "password": "123456",
+      "id": 2,
+      "title": "Công việc liên hệ 0368858737",
+      "videos": [
+        {
+          "videoUrl": "/uploads/video2.mp4"
+        }
+      ]
+    },
+    {
+      "username": "syhiep20011",
+      "bio": "@syhiep20011",
+      "name": "Thi Ly",
+      "img": "/uploads/img3.jpg",
+      "password": "522001",
+      "id": 3,
+      "videos": [
+        {
+          "videoUrl": "/uploads/video5.mp4"
+        },
+        {
+          "videoUrl": "/uploads/video9.mp4"
+        },
+        {
+          "videoUrl": "/uploads/video3.mp4"
+        }
+      ]
+    },
+    {
+      "username": "syhiep2014",
+      "bio": "@syhiepvan",
+      "name": "Sỹ Hiệp",
+      "img": "/uploads/img5.jpg",
+      "password": "123456",
+      "id": 4,
+      "videos": [
+        {
+          "videoUrl": "/uploads/video6.mp4"
+        }
+      ]
+    },
+    {
+      "username": "syhiep2009",
+      "bio": "@syhiep2001",
+      "name": "Văn Hùng",
+      "img": "/uploads/img1.jpg",
+      "password": "522001",
+      "id": 5,
+      "videos": [
+        {
+          "videoUrl": "/uploads/video6.mp4"
+        },
+        {
+          "videoUrl": "/uploads/video4.mp4"
+        },
+        {
+          "videoUrl": "/uploads/video3.mp4"
+        },
+        {
+          "videoUrl": "/uploads/video3.mp4"
+        }
+      ],
+      "title": "Liên hệ công việc 0368858737"
+    },
+    {
+      "username": "syhiep2020",
+      "bio": "@syhiep2020",
+      "name": "Hiệp Văn",
+      "img": "/uploads/img9.jpg",
+      "password": "522001",
+      "id": 6,
+      "videos": [
+        {
+          "videoUrl": "/uploads/video11.mp4"
+        }
+      ]
+    }
+  ]
+}

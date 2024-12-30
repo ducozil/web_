@@ -1,0 +1,70 @@
+.wrapper {
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 1);
+    min-width: 100px;
+    font-size: 1.6rem;
+    padding: 9px 16px;
+    font-weight: 700;
+    line-height: 21px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    + .wrapper {
+        margin-left: 8px; // hai button gần nhau thì cách nhau 8px
+    }
+}
+//Button type
+.primary {
+    width: 100%;
+    text-align: center;
+    background-color: rgba(254, 44, 85, 1);
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    &:hover {
+        background: linear-gradient(
+                0deg,
+                rgba(0, 0, 0, 0.06),
+                rgba(0, 0, 0, 0.06)
+            ),
+            #fe2c55;
+    }
+}
+.outline {
+    border-color: currentColor;
+    color: #fe2c55;
+    &:hover {
+        background-color: rgba(254, 44, 85, 0.06);
+    }
+}
+.rounded {
+    border-radius: 999px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    color: rgb(80 82 90);
+    border-color: rgba(22, 24, 35, 0.2);
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 1);
+    &:hover {
+        background-color: rgba(254, 44, 85, 0.06);
+    }
+}
+.textbutton {
+    border-radius: 999px;
+    color: black;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+//Button size
+.small {
+    min-width: 88px;
+    padding: 7px 10px;
+    width: 150px;
+}
+.large {
+    min-width: 136px;
+    padding: 14px 16px;
+}

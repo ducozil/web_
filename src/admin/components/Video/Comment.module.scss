@@ -1,0 +1,173 @@
+.wrapper{
+  margin-left: 300px;
+}
+.video {
+  width: 692px;
+  height: 700px;
+}
+.comment{
+  margin-left: 350px;
+  margin-top: 10px;
+}
+.profilecmt {
+  margin-top: 10px;
+  display: flex;
+  img {
+    border-radius: 50px;
+    overflow: clip;
+    height: 50px;
+    width: 50px;
+  }
+  input {
+    margin-left: 30px;
+    width: 350px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+}
+.profilecmt1 {
+  margin-top: 20px;
+  display: flex;
+  img {
+    border-radius: 50px;
+    overflow: clip;
+    height: 50px;
+    width: 50px;
+  }
+.name{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  background-color: #f0f2f5;
+  width: 375px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  span{
+    font-family: Arial, sans-serif;
+    font-weight: bold
+  }
+  label{
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+  }
+
+}
+}
+.video-info {
+  margin-top: 50px;
+  background-color: transparent;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  img {
+    border-radius: 100px;
+    overflow: clip;
+    height: 72px;
+    width: 72px;
+  }
+}
+.user {
+  margin-left: 20px;
+  align-items: center;
+  line-height: 26px;
+  background-color: transparent;
+  width: 300px;
+}
+.user-infor {
+  display: flex;
+  color: rgb(22, 24, 35);
+  font-family: "Roboto", sans-serif;
+
+  h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  h4 {
+    margin-left: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+  }
+}
+.button {
+  width: 100px;
+  height: 150px;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.icon {
+  color: rgb(254, 44, 85);
+  margin-right: 5px;
+}
+///video contens
+.video-contents {
+  margin-top: 10px;
+  height: 500px;
+  width: 100%;
+  display: flex;
+}
+.videos {
+  margin-left: 50px;
+  width: 400px;
+  height: 100%;
+}
+.icon-like {
+  padding-top: 290px;
+  height: 100%;
+  color: rgba(22, 24, 35, 1);
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 50px;
+  strong {
+    font-size: 10px;
+  }
+}
+.icon-new {
+  margin-top: 10px;
+}
+
+
+.video-contents {
+  margin-bottom: 50px;  // Ensure there's space between the video and like section
+}
+
+.profilecmt1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.profilecmt1 img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+}
+
+.name span {
+  font-weight: bold;
+}
+
+.name label {
+  color: #333;
+}
+
+.input {
+  width: 80%;
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
